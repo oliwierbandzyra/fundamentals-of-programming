@@ -1,11 +1,9 @@
 total_tasks = 20
 tasks_ok = int(input('Enter number of correctly completed tasks: '))
 test_passed = False
-
-# Żeby zdać test, trzeba mieć co najmniej połowę (50%) poprawnych zadań
+# musi byc min 50% (polowa zadan) zeby zdac
 if tasks_ok >= total_tasks * 0.5:
     test_passed = True
-
 if test_passed:
     print('Congratulations! You passed the test.')
 else:
