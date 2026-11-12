@@ -1,6 +1,5 @@
 age = int(input("Enter your age: "))
-
-# Przypisujemy grupę wiekową na podstawie podanego wieku
+# przedzialy wiekowe
 if age < 13:
     print("Child")
 elif 13 <= age <= 19:
