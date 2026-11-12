@@ -1,6 +1,5 @@
 temperature = int(input("Enter temperature: "))
-
-# Sprawdzamy przedziały temperatury od najwyższej do najniższej
+# sprawdza przedzialy temp od gory w dol
 if temperature > 35:
     print("It is extremely hot")
 elif temperature > 30:
