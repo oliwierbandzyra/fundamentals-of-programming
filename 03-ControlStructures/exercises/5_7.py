@@ -1,8 +1,6 @@
 import time
-
 t = int(input("Enter time in seconds: "))
-
-# Odliczamy w dół co sekundę; ostatnie 5 sekund wypisujemy słownie
+# odlicza co sekunde, ostatnie 5 wypisuje slownie
 while t > 0:
     if t == 5:
         print("five")
@@ -17,6 +15,5 @@ while t > 0:
     else:
         print(t)
     t -= 1
-    time.sleep(1)  # pauza na 1 sekundę w czasie rzeczywistym
-
+    time.sleep(1)
 print("Time is up!")
