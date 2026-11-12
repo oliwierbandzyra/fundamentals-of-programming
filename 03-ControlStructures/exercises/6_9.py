@@ -1,5 +1,4 @@
 name = input("Enter name: ")
-
-# name[-1] pobiera ostatnią literę napisu
+# [-1] bierze ostatnia litere imienia
 if name[-1] == 'a':
     print(f"{name} -- Polish female name")
