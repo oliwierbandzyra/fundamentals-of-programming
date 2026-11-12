@@ -1,7 +1,6 @@
 x = int(input("x = "))
 y = int(input("y = "))
-
-# Określamy ćwiartkę układu współrzędnych lub położenie na osiach / w punkcie (0,0)
+# sprawdza w ktorej cwiartce albo na ktorej osi lezy punkt
 if x > 0 and y > 0:
     print(f"Point P({x},{y}) is in the first quadrant of the coordinate system")
 elif x < 0 and y > 0:
