@@ -1,5 +1,4 @@
 city = 'Krakow'
-
-# Pętla for wyciąga po kolei każdą pojedynczą literę z napisu 'city'
+# leci po kazdej literze w stringu po kolei
 for char in city:
     print(char)
