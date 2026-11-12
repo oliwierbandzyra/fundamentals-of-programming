@@ -1,5 +1,5 @@
-# Zewnętrzna pętla schodzi co 3 w dół (6, 3, 0), a wewnętrzna dodaje 1, 2, 3 — tworzy układ klawiatury 7-8-9 / 4-5-6 / 1-2-3
 i = 6
+# zewnetrzna petla leci 6, 3, 0 a wewnetrzna dodaje 1, 2, 3 (klawiatura 789 / 456 / 123)
 while i >= 0:
     j = 1
     while j <= 3: 
