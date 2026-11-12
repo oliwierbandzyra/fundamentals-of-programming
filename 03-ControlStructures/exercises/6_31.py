@@ -1,6 +1,5 @@
-# Importujemy moduł random do generowania liczb losowych
 import random
-# Pętla for wykona się 20 razy (znak '_' oznacza zmienną pomocniczą, której wartości nie używamy wewnątrz pętli)
+
+# '_' używamy jako nazwy zmiennej w pętli, gdy interesuje nas tylko liczba powtórzeń (20 razy)
 for _ in range(20): 
-    # Losujemy liczbę całkowitą z przedziału od 5 do 10 włącznie i wypisujemy ją obok poprzedniej ze spacją
     print(random.randint(5, 10), end=" ")
