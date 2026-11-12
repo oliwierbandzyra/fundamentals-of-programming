@@ -1,7 +1,6 @@
 speed_limit = 140
 car_speed = int(input('Enter car speed (km/h): '))
-
-# Sprawdzamy, czy auto przekroczyło dozwolony limit prędkości
+# jak przekroczony limit to wywala ostrzezenie
 if car_speed > speed_limit:
     print(f'Your speed is {car_speed}km/h')
     print('Warning: speed limit exceeded!!')
