@@ -1,6 +1,5 @@
 size = input('Enter size symbol: ')
-
-# Dopasowujemy odpowiedni opis do podanego symbolu rozmiaru
+# dopasowanie rozmiaru po literce
 if size == 'S':
     print('S: Small size')
 elif size == 'M':
