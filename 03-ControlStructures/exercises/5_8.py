@@ -1,7 +1,6 @@
 balance = 1000
 pin = '1111' 
-
-# Główna pętla menu bankomatu — działa aż do wybrania opcji 6 (Exit)
+# menu bankomatu chodzi w petli az wybierzesz 6
 while True:
     print("\nATM Menu:")
     print("1. Check balance")
@@ -11,7 +10,6 @@ while True:
     print("5. Change PIN")
     print("6. Exit")
     choice = input("Choose an option: ")
-
     if choice == '1':
         print(f"Your balance is: {balance}")
     elif choice == '2':
@@ -19,7 +17,7 @@ while True:
         balance += amount
     elif choice == '3':
         amount = float(input("Enter amount to withdraw: "))
-        # Sprawdzamy, czy na koncie wystarczy środków na wypłatę
+        # sprawdza czy nie chcesz wyplacic wiecej niz masz
         if amount <= balance:
             balance -= amount
         else:
@@ -32,7 +30,7 @@ while True:
             print("Incorrect PIN.")
     elif choice == '5':
         new_pin = input("Enter new 4-digit PIN: ")
-        # Nowy PIN musi mieć dokładnie 4 znaki i składać się wyłącznie z cyfr
+        # musi miec dokladnie 4 znaki i same cyfry
         if len(new_pin) == 4 and new_pin.isdigit():
             pin = new_pin
             print("PIN changed successfully.")
