@@ -1,11 +1,10 @@
-###
-# Checking whether the number entered from the keyboard is even or odd
-#
-
+# Pobieramy od użytkownika dowolną liczbę całkowitą i zapisujemy ją w zmiennej number
 number = int(input('Enter number: '))
-
-# Użycie operatora modulo (%). Jeśli reszta z dzielenia przez 2 wynosi 0, liczba jest parzysta
+# Sprawdzamy, czy reszta z dzielenia liczby przez 2 (operator %) jest równa (==) 0
 if number % 2 == 0:
+    # Jeśli reszta wynosi 0, liczba jest parzysta — wyświetlamy odpowiedni komunikat
     print(f'{number} is even')
+# W przeciwnym razie (gdy reszta z dzielenia przez 2 wynosi 1)
 else:
+    # Liczba jest nieparzysta — wyświetlamy odpowiedni komunikat
     print(f'{number} is odd')
