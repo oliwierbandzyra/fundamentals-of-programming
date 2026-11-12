@@ -1,11 +1,10 @@
 N = int(input("Enter N (number of prime numbers to find): "))
 primes_found = 0
 num = 2 
-
 print("Prime numbers:", end=" ")
 while primes_found < N:
     is_prime = True
-    # Sprawdzamy, czy 'num' dzieli się bez reszty przez jakąkolwiek liczbę od 2 do num-1
+    # sprawdza czy num dzieli sie przez cokolwiek od 2 do num-1
     for i in range(2, num):
         if num % i == 0:
             is_prime = False
